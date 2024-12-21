@@ -1,28 +1,6 @@
 {
 	"instructions": [
-	  {
-		"action": "delete",
-		"target": "path/to/file_to_delete.txt"
-	  },
-	  {
-		"action": "download",
-		"target": "path/to/save_downloaded_file.txt",
-		"source": "https://example.com/file_to_download.txt"
-	  },
-	  {
-		"action": "rename",
-		"target": "path/to/old_file_name.txt",
-		"destination": "path/to/new_file_name.txt"
-	  },
-	  {
-		"action": "move",
-		"target": "path/to/file_to_move.txt",
-		"destination": "path/to/new_location/file_to_move.txt"
-	  },
-	  {
-		"action": "execute",
-		"target": "path/to/script_to_execute.sh"
-	  }
+
 	]
   }
   
