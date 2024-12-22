@@ -1,6 +1,14 @@
 {
 	"instructions": [
-
+		{
+			"action": "download",
+			"source": "https://raw.githubusercontent.com/RysKowalski/updates/refs/heads/main/test.py",
+			"destination": "test.py"
+		},
+		{
+			"action": "execute",
+			"target": "test.py"
+		}
 	]
   }
   
