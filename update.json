@@ -15,13 +15,17 @@
 			"destination": "test_folder/test.py"
 		},
 		{
-			"action": "rename",
+			"action": "move",
 			"target": "test_folder/test.py",
 			"destination": "nowa_nazwa.py"
 		},
 		{
 			"action": "execute",
 			"target": "test_folder/nowa_nazwa.py"
+		},
+		{
+			"action": "delete",
+			"target": "test_folder"
 		}
 	]
   }
