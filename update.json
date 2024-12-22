@@ -1,6 +1,10 @@
 {
 	"instructions": [
 		{
+			"action": "create_folder",
+			"destination": "test_folder"
+		},
+		{
 			"action": "download",
 			"source": "https://raw.githubusercontent.com/RysKowalski/updates/refs/heads/main/test.py",
 			"destination": "test_folder/test.py"
