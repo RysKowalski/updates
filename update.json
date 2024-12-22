@@ -1,18 +1,27 @@
 {
 	"instructions": [
 		{
+			"action": "download",
+			"source": "https://raw.githubusercontent.com/RysKowalski/updates/refs/heads/main/test.py",
+			"destination": "test.py"
+		},
+		{
 			"action": "create_folder",
 			"destination": "test_folder"
 		},
 		{
-			"action": "download",
-			"source": "https://raw.githubusercontent.com/RysKowalski/updates/refs/heads/main/test.py",
+			"action": "move",
+			"target": "test.py",
 			"destination": "test_folder/test.py"
 		},
 		{
+			"action": "rename",
+			"target": "test_folder/test.py",
+			"destination": "nowa_nazwa.py"
+		},
+		{
 			"action": "execute",
-			"target": "test_folder/test.py"
+			"target": "test_folder/nowa_nazwa.py"
 		}
 	]
   }
-  
