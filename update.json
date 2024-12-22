@@ -22,10 +22,6 @@
 		{
 			"action": "execute",
 			"target": "test_folder/nowa_nazwa.py"
-		},
-		{
-			"action": "delete",
-			"target": "test_folder"
 		}
 	]
   }
